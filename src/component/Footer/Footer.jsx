@@ -19,11 +19,11 @@ function Footer() {
     <div class="footer-column">
       <h3>About us</h3>
       <ul>
-        <li><a href="#">Concept</a></li>
-        <li><a href="#">Franchise</a></li>
-        <li><a href="#">Business</a></li>
-        <li><a href="#">Restaurant signup</a></li>
-        <li><a href="#">For Investors</a></li>
+        <li><a href="https://example.com">Concept</a></li>
+        <li><a href="https://example.com">Franchise</a></li>
+        <li><a href="https://example.com">Business</a></li>
+        <li><a href="https://example.com">Restaurant signup</a></li>
+        <li><a href="https://example.com">For Investors</a></li>
       </ul>
     </div>
 
