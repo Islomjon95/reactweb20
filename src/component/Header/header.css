@@ -1,0 +1,138 @@
+.header {
+    width: 100%;
+    height: 788px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.content_box {
+    width: 536px;
+    height: 288px;
+    margin-top: 120px;
+}
+
+.header_title {
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 58px;
+    line-height: 64px;
+    letter-spacing: 5%;
+    vertical-align: middle;
+
+}
+
+.img_box {
+    width: 803px;
+    height: 706px;
+
+}
+
+.wrapper {
+    width: 260px;
+    height: 72px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper_box {
+    width: 118px;
+    height: 72px;
+    width: 117;
+    border-radius: 4px;
+    border: 2px solid rgba(255, 225, 69, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head_title {
+    font-family: Martel Sans;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    vertical-align: bottom;
+    color: rgba(63, 66, 85, 1);
+
+}
+
+.wrap_text {
+    color: rgba(63, 66, 85, 1);
+    font-family: Martel Sans;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: bottom;
+
+}
+.wrapper2{
+    width: 872px;
+    height: 104px;
+    border: 1px solid black;
+    margin-top: 684px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.08);
+
+}
+
+.wrapper2_box1{
+    width: 246px;
+    height: 56px;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wrapper2_box2{
+    width: 188px;
+    height: 56px;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wrapper2_box3{
+    width: 236px;
+    height: 56px;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.wrapper2_img{
+    width: 48px;
+    height: 48px;
+}
+
+.text{
+    font-family: Martel Sans;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.5px;
+vertical-align: middle;
+color: rgba(63, 66, 85, 1);
+
+
+}
+.wrapper2_text1{
+    width: 182px;
+    height: 48px;
+}
+.wrapper2_text2{
+    width: 124px;
+    height: 48px;
+}
+.wrapper2_text3{
+    width: 172px;
+    height: 48px;
+}

@@ -1,0 +1,141 @@
+/* Asosiy Footer konteyneri */
+.footer {
+    background: rgba(63, 66, 85, 1);
+ /* To'q ko'k-kulrang fon */
+    color: #ffffff;
+    padding: 60px 8% 40px 8%; /* Yon taraflardan rasmga mos joy tashlaymiz */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Ustunlar joylashgan qator */
+.footer-container {
+    display: flex;
+    justify-content: space-between; /* Ustunlar orasini ochadi */
+    align-items: flex-start;
+    gap: 30px; /* O'ng tarafdagi ustunlar orasidagi kichik masofa */
+    padding-bottom: 50px;
+}
+
+/* 1-USTUN: LOGO VA APP LINKS (Chapda qoladi) */
+.logo-section {
+    flex: 2; /* Bu qolgan ustunlardan 2 barobar ko'proq joy oladi va ularni o'ngga suradi */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.site-logo {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.yellow-text {
+    color: #ffe145; /* "yellow" so'zi uchun sariq rang */
+}
+
+.footer-divider {
+    width: 280px; /* Chiziq uzunligini rasmga moslab kichikroq qilamiz */
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 10px 0;
+}
+
+/* App Store va Google Play uchun borderli joylar */
+.app-buttons {
+    display: flex;
+    gap: 55px;
+}
+
+.app-placeholder {
+    width: 79px;
+    height: 28px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: transparent;
+}
+
+/* O'NG TARAFDAGI 3 TA USTUN (About, Get help, Contact) */
+.footer-column:not(.logo-section) {
+    flex: 0 1 auto; /* Faqat o'z matniga yarasha joy egallaydi */
+    min-width: 170px; /* Bir-biriga juda yopishib ketmasligi uchun chegara */
+}
+
+.footer-column h3 {
+    font-size: 22px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 12px;
+}
+
+.footer-column a {
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.footer-column a:hover {
+    opacity: 1;
+}
+
+.footer-column p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    opacity: 0.9;
+}
+
+/* Telefon raqami stili */
+.phone {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 15px 0 !important;
+}
+
+/* FOOTER PASTKI QISMI (Socials va Legal) */
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 25px;
+}
+
+.icon-circle {
+    width: 24px;
+    height: 24px;
+  
+    display: inline-block;
+    opacity: 0.8;
+}
+
+.legal-links {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.legal-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
